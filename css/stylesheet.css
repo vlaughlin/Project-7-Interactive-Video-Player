@@ -1,0 +1,15 @@
+
+mejs__player {
+ 
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+margin: 22px;
+font-size: 13.2px
+}
+
+  .hilite {
+      background-color: YELLOW;
+    }
