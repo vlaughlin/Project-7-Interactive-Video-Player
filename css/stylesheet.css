@@ -1,36 +1,27 @@
-
 .mejs__player {
- 
-  margin: 0 auto;
-  display: block;
+        margin: 0 auto;
+        display: block;
 }
-
 p {
-margin: 22px;
-font-size: 13.2px
+        margin: 22px;
+        font-size: 13.2px
 }
-
-  .highlight {
-      background-color: yellow;
-    }
-
+.highlight {
+        background-color: yellow;
+}
 
 /*Media Queries*/
 
-    
-      @media screen and (min-width: 768px) {
-  
-          .mejs__player {
-    
-        max-width: 500px;
-        max-height: 400px;     
-        margin: 0 auto;
-    }
-
-p {
-
-    margin: 0 100px;
-    padding: 10px;
-	
-}
+@media screen and (min-width: 768px) {
+       
+      .mejs__player {
+                max-width: 500px;
+                max-height: 400px;
+                margin: 0 auto;
+        }
+        
+       p {
+                margin: 0 100px;
+                padding: 10px;
+        }
 }
