@@ -1,10 +1,12 @@
-.mejs__player {
+.videocontainer {
         margin: 0 auto;
         display: block;
+        padding: 0px;
 }
+
 p {
         margin: 22px;
-        font-size: 13.2px
+        font-size: 13.2px;
 }
 .highlight {
         background-color: yellow;
@@ -13,15 +15,17 @@ p {
 /*Media Queries*/
 
 @media screen and (min-width: 768px) {
-       
-      .mejs__player {
-                max-width: 500px;
-                max-height: 400px;
+        p {
+                max-width: 600px;
                 margin: 0 auto;
+                padding: 20px;
         }
-        
-       p {
-                margin: 0 100px;
-                padding: 10px;
+        .videocontainer {
+                max-width: 600px;
+                max-height: 600px;
+                padding: 20px;
         }
 }
+
+
+
